@@ -1,0 +1,35 @@
+# Игнорируемые файлы для Docker
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.env
+.venv
+venv/
+ENV/
+env/
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Игнорируем данные и логи
+data/
+logs/
+*.log
+
+# Игнорируем тестовые файлы (кроме если не нужны)
+tests/
+coverage.xml
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Игнорируем системные файлы
+Dockerfile
+docker-compose.yml
+.git/
+.gitignore
